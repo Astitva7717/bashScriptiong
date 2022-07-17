@@ -1,0 +1,8 @@
+total 12
+-rw-r--r-- 1 astitva 197121   16 Jul 17 21:49 README.md
+-rwxr-xr-x 1 astitva 197121 1398 Jul 17 21:49 basic.sh
+-rwxr-xr-x 1 astitva 197121  148 Jul 17 21:49 basic2.sh
+-rwxr-xr-x 1 astitva 197121  727 Jul 17 22:25 basic3.sh
+-rw-r--r-- 1 astitva 197121   43 Jul 17 22:24 file.err
+-rw-r--r-- 1 astitva 197121    0 Jul 17 22:25 file.txt
+-rw-r--r-- 1 astitva 197121  247 Jul 17 21:50 redirection.txt
