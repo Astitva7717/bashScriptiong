@@ -11,4 +11,6 @@ declare -p | grep myname
 
 declare "varialble name"
 
-#
+# assigning value to a variable
+
+declare variable name=value
