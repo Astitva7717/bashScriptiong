@@ -1,3 +1,6 @@
+#! /usr/bin/bash
+
+
 # variable declareation
 # we will you 'declare' command to list every declared variable
 
