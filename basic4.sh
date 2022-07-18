@@ -3,4 +3,12 @@
 
 declare -p 
 
-declare -p | grep myname #checking if my name is declare or not
+#checking if my name is declare or not
+
+declare -p | grep myname 
+
+# we can declare a variable by using 'declare' cmd like this
+
+declare "varialble name"
+
+#
