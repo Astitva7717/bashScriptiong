@@ -10,13 +10,13 @@ each line of a document and the action that is to be taken when a match is found
 # awk in bash
 
 echo 'enter filename: '
-read $filename
-if [[ -f filename ]]
+read $fname
+if [[ -f fname ]]
 then
     # print entire file contents 
-    AWK '{ print }' $filename
+    AWK '{ print }' $fname
 
 else
-    echo " $filename file does not exist."
+    echo " $fname file does not exist."
 fi
 
