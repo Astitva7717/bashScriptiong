@@ -19,3 +19,19 @@ fi
 # printing the line which doesnot containing the match pattern
 
 grep -v $pattern $logfile
+
+# printing a line ignoring case in pattern
+
+grep -i $pattern $logfile
+
+# printing a line after the matched pattern
+
+grep -A1 $pattern $logfile
+
+# printing a line before the matched pattern
+
+grep -B1 $pattern $logfile
+
+# printing a line before and after the matched pattern
+
+grep -A1 -B1 $pattern $logfile
