@@ -20,3 +20,7 @@ fi
 
 
 curl -k -X POST  http://dummy.restapiexample.com/api/v1/create --data @data.json -H "Content-type:application/json"
+
+# using jq to handle the response
+
+curl -s http://dummy.restapiexample.com/api/v1/employees |jq
